@@ -325,3 +325,64 @@ a {
 .services-item:nth-child(3) {
     margin-bottom: 5.5rem;
 }
+
+/* HOW IT WORK */
+
+.how-it-work {
+    padding: 10rem 0 11.6rem;
+    background: #f6fbff;
+}
+
+.work-desc {
+    margin-top: 1.8rem;
+    width: 46.8rem;
+}
+
+.work-list {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.work-item {
+    border-radius: 0.4rem;
+    background: #fff;
+    border: 1.6rem solid #eaf6ff;
+    padding: 4.4rem;
+    transition: 0.25s;
+}
+
+.work-item:hover {
+    transform: translateY(-1.6rem);
+    border-color: #2e80ce;
+}
+
+.item-title {
+    margin-top: 1.8rem;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.6rem; /* 138.462% */
+}
+
+.item-desc {
+    margin-top: 2.8rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.8rem; /* 175% */
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.8rem; /* 175% */
+}
+
+.work-item:hover .learn-more {
+    color: #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem; /* 175% */
+}
