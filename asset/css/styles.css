@@ -386,3 +386,49 @@ a {
     font-weight: 400;
     line-height: 2.8rem; /* 175% */
 }
+
+/* FEATURE */
+
+.feature {
+    margin-top: 8.5rem;
+    padding: 8.5rem 0;
+}
+
+.feature-media {
+    width: 47.8%;
+}
+
+.feature-images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.feature-img {
+    width: 51.2rem;
+    height: 37rem;
+    border-radius: 0.6rem;
+    object-fit: cover;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+}
+
+.feature-img:last-child {
+    position: absolute;
+    width: 33.2rem;
+    height: 37rem;
+    border-radius: 0.6rem;
+    right: 0;
+    bottom: 0;
+}
+
+.feature-body {
+    display: flex;
+    align-items: center;
+}
+
+.feature-content {
+    margin-left: 13rem;
+}
+
+.feature-cta {
+    margin-top: 3.8rem;
+}
