@@ -42,11 +42,24 @@ a {
     line-height: var(--height); /* 166.667% */
 }
 
+.section-heading {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 6rem; /* 120% */
+    letter-spacing: -0.1rem;
+    color: #10375c;
+}
+
+.section-desc {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3rem; /* 166.667% */
+}
+
 /* HEADER */
 
 .header {
-    padding: 30px;
-    height: 100vh;
+    padding: 30px 30px 110px;
     background-color: var(--header-bg);
 }
 
@@ -221,4 +234,94 @@ a {
     width: 21rem;
     height: 41rem;
     object-fit: cover;
+}
+
+/* ========== MAIN ========== */
+
+.services {
+    padding: 170px 0;
+}
+
+.services-title {
+    text-align: center;
+}
+
+.services-desc {
+    width: 46.8rem;
+    text-align: center;
+    margin-top: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-row {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-row .services-img {
+    width: 57rem;
+    height: 57rem;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+
+.services-list {
+    margin-left: 13rem;
+}
+
+.services-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 47rem;
+    height: 12.8rem;
+    flex-shrink: 0;
+    transition: 0.25s;
+}
+
+.services-icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    color: #10375c;
+    background-color: #eff6fd;
+    flex-shrink: 0;
+    margin-right: 1.9rem;
+    transition: 0.25s;
+}
+
+.services-item:hover .services-icon-wrap {
+    color: #ffffff;
+    background-color: #2e80ce;
+}
+
+.services-item:hover {
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.services-item-heading {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services-item-desc {
+    margin-top: 0.8rem;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.8rem; /* 175% */
+}
+
+.services-item:nth-child(3) {
+    margin-bottom: 5.5rem;
 }
