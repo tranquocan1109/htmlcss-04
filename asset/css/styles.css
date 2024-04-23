@@ -519,3 +519,45 @@ a {
 .cta-next {
     rotate: 180deg;
 }
+
+/* INSTALL APP */
+
+.install-app {
+    margin-top: 18rem;
+}
+
+.install-inner {
+    background-color: #2e80ce;
+    padding: 0 7rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.install-img {
+    display: block;
+    margin-top: -9.5rem;
+    width: 28.4rem;
+    height: 52.2rem;
+    object-fit: cover;
+}
+
+.install-content {
+    max-width: 586px;
+}
+
+.install-title {
+    color: #fff;
+}
+
+.install-desc {
+    margin-top: 1.8rem;
+    color: #fff;
+}
+
+.install-row {
+    display: flex;
+    margin-top: 3.8rem;
+    column-gap: 2.8rem;
+}
